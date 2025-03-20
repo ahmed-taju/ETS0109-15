@@ -11,3 +11,8 @@ Example
 
 text = "Hello WORLD"
 print(text.lower())  # Output: "hello world"
+
+capitalize() – Capitalizes the first letter of the string
+
+text = "hello world"
+print(text.capitalize())  # Output: "Hello world"
