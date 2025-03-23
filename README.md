@@ -48,3 +48,18 @@ endswith(substring) – Checks if a string ends with a given substring
 
 text = "hello world"
 print(text.endswith("world"))  # Output: True
+
+count(substring) – Counts occurrences of a substring
+
+text = "hello world, hello Python"
+print(text.count("hello"))  # Output: 2
+
+str.replace(old, new) - Replaces all occurrences of old with new in the string.
+
+text = "hello world"
+print(text.replace("world", "Python"))  # Output: "hello Python"
+
+str.strip() - Removes leading and trailing whitespace or specified characters.
+
+text = "   hello world   "
+print(text.strip())  # Output: "hello world"
