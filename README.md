@@ -63,3 +63,18 @@ strip() - Removes leading and trailing whitespace or specified characters.
 
 text = "   hello world   "
 print(text.strip())  # Output: "hello world"
+
+str.lstrip() - Removes leading whitespace or specified characters from the string.
+
+text = "   hello"
+print(text.lstrip())  # Output: "hello"
+
+str.rstrip() - Removes trailing whitespace or specified characters from the string.
+
+text = "hello   "
+print(text.rstrip())  # Output: "hello"
+
+str.split(separator) - Splits the string into a list using the specified separator.
+
+text = "apple,banana,grape"
+print(text.split(","))  # Output: ['apple', 'banana', 'grape']
