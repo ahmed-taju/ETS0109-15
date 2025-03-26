@@ -105,23 +105,44 @@ print(text.rstrip())  # Output: "hello"
 text = "apple,banana,grape"
 print(text.split(","))  # Output: ['apple', 'banana', 'grape']
 
-# str.join(iterable) - Joins elements of an iterable into a single string using the string as a separator.
+# join(iterable) - Joins elements of an iterable into a single string using the string as a separator.
 
 <!-- Example -->
 
 words = ["hello", "world"]
 print(" ".join(words))  # Output: "hello world"
 
-# str.isalpha() - Checks if the string contains only alphabetic characters.
+# isalpha() - Checks if the string contains only alphabetic characters.
 
 <!-- Example -->
 
 text = "Hello"
 print(text.isalpha())  # Output: True
 
-# str.isdigit() - Checks if the string contains only numeric characters.
+# isdigit() - Checks if the string contains only numeric characters.
 
 <!-- Example -->
 
 text = "12345"
 print(text.isdigit())  # Output: True
+
+# isalnum() - Checks if the string contains only alphanumeric characters (letters and digits).
+
+<!-- Example -->
+
+text = "Hello123"
+print(text.isalnum())  # Output: True
+
+# isspace() - Checks if the string contains only whitespace characters.
+
+<!-- Example -->
+
+text = "   "
+print(text.isspace())  # Output: True
+
+# format(*args, **kwargs) - Formats the string with placeholders using provided arguments.
+
+<!-- Example -->
+
+text = "My name is {} and I am {} years old."
+print(text.format("Alice", 25))  # Output: "My name is Alice and I am 25 years old."
