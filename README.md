@@ -168,3 +168,18 @@ print(len(text))  # Output: 5
 
 text = "hello"
 print(text.encode('utf-8'))  # Output: b'hello'
+
+# str.islower() - Checks if all alphabetic characters in the string are lowercase.
+
+<!-- Example -->
+
+text = "hello"
+print(text.islower())  # Output: True
+
+# str.isupper() - Checks if all alphabetic characters in the string are uppercase.
+
+<!-- Example -->
+
+text = "HELLO"
+print(text.isupper())  # Output: True
+
