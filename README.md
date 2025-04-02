@@ -36,3 +36,24 @@ print(popped)   # Output: 2
 my_list = [1, 2, 3]
 my_list.clear()
 print(my_list)  # Output: []
+
+# index(x[, start[, end]]) => Returns the index of the first occurrence of x in the list within the optional start and end range.
+<!-- Example -->
+my_list = [1, 2, 3, 2]
+print(my_list.index(2))  # Output: 1
+
+# count(x) => Returns the number of times x appears in the list.
+<!-- Example -->
+my_list = [1, 2, 2, 3, 2]
+print(my_list.count(2))  # Output: 3
+
+# sort(*, key=None, reverse=False) => Sorts the list in place. Use key for custom sorting and reverse=True for descending order.
+<!-- Example -->
+my_list = [3, 1, 4, 2]
+my_list.sort()
+print(my_list)  # Output: [1, 2, 3, 4]
+
+# Descending order
+my_list.sort(reverse=True)
+print(my_list)  # Output: [4, 3, 2, 1]
+
