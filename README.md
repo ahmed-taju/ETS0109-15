@@ -57,3 +57,20 @@ print(my_list)  # Output: [1, 2, 3, 4]
 my_list.sort(reverse=True)
 print(my_list)  # Output: [4, 3, 2, 1]
 
+# reverse() => Reverses the elements of the list in place.
+<!-- Example -->
+my_list = [1, 2, 3]
+my_list.reverse()
+print(my_list)  # Output: [3, 2, 1]
+
+# copy() => Returns a shallow copy of the list.
+<!-- Example -->
+my_list = [1, 2, 3]
+new_list = my_list.copy()
+print(new_list)  # Output: [1, 2, 3]
+
+# len(list) => Returns the number of elements in the list.
+<!-- Example -->
+my_list = [1, 2, 3]
+print(len(my_list))  # Output: 3
+
