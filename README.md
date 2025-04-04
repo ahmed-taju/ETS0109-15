@@ -74,3 +74,19 @@ print(new_list)  # Output: [1, 2, 3]
 my_list = [1, 2, 3]
 print(len(my_list))  # Output: 3
 
+# max(list) => Returns the maximum element in the list.
+<!-- Example -->
+my_list = [1, 2, 3]
+print(max(my_list))  # Output: 3
+
+# min(list) => Returns the minimum element in the list.
+<!-- Example -->
+my_list = [1, 2, 3]
+print(min(my_list))  # Output: 1
+
+# sum(list) => Returns the sum of all elements in the list.
+<!-- Example -->
+my_list = [1, 2, 3]
+print(sum(my_list))  # Output: 6
+my_list = [1, 2, 3]
+print(sum(my_list))  # Output: 6
