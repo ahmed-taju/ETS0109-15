@@ -90,3 +90,21 @@ my_list = [1, 2, 3]
 print(sum(my_list))  # Output: 6
 my_list = [1, 2, 3]
 print(sum(my_list))  # Output: 6
+
+# Slicing: list[start:end:step] => Used to get a subset of the list.
+<!-- Example -->
+my_list = [1, 2, 3, 4, 5]
+print(my_list[1:4])      # Output: [2, 3, 4]
+print(my_list[::-1])     # Output: [5, 4, 3, 2, 1]
+
+# del list[i] => Deletes the element at index i.
+<!-- Example -->
+my_list = [1, 2, 3]
+del my_list[1]
+print(my_list)  # Output: [1, 3]
+
+# list1 + list2 => Concatenates two lists.
+<!-- Example -->
+list1 = [1, 2]
+list2 = [3, 4]
+print(list1 + list2)  # Output: [1, 2, 3, 4]
