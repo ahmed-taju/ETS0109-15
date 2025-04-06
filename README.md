@@ -108,3 +108,21 @@ print(my_list)  # Output: [1, 3]
 list1 = [1, 2]
 list2 = [3, 4]
 print(list1 + list2)  # Output: [1, 2, 3, 4]
+
+# list * n => Repeats the list n times.
+<!-- Example -->
+my_list = [1, 2]
+print(my_list * 3)  # Output: [1, 2, 1, 2, 1, 2]
+
+# x in list => Checks if x is present in the list (returns True or False).
+<!--Example -->
+my_list = [1, 2, 3]
+print(2 in my_list)   # Output: True
+print(4 in my_list)   # Output: False
+
+# x not in list => Checks if x is not present in the list. 
+<!-- Example -->
+my_list = [1, 2, 3]
+print(4 not in my_list)  # Output: True
+print(2 not in my_list)  # Output: False
+
