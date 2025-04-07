@@ -54,6 +54,7 @@ my_list.sort()
 print(my_list)  # Output: [1, 2, 3, 4]
 
 # Descending order
+my_list=[1, 2, 3, 4]
 my_list.sort(reverse=True)
 print(my_list)  # Output: [4, 3, 2, 1]
 
@@ -86,8 +87,6 @@ print(min(my_list))  # Output: 1
 
 # sum(list) => Returns the sum of all elements in the list.
 <!-- Example -->
-my_list = [1, 2, 3]
-print(sum(my_list))  # Output: 6
 my_list = [1, 2, 3]
 print(sum(my_list))  # Output: 6
 
