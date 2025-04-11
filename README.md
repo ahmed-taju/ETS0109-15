@@ -18,3 +18,19 @@ person = {"name": "Alice"}
 print(person.get("name"))      # Output: Alice
 print(person.get("age", 25))   # Output: 25
 
+# dict.items() => Returns a view object of dictionary’s key-value pairs.
+<!-- Example -->
+my_dict = {"a": 1, "b": 2}
+print(my_dict.items())  # Output: dict_items([('a', 1), ('b', 2)])
+
+# dict.keys() => Returns a view object of dictionary keys.
+<!-- Example -->
+my_dict = {"a": 1, "b": 2}
+print(my_dict.keys())  # Output: dict_keys(['a', 'b'])
+
+# dict.pop(key, default) => Removes and returns the value of the specified key.
+<!-- Example -->
+my_dict = {"a": 1, "b": 2}
+value = my_dict.pop("a")
+print(value)     # Output: 1
+print(my_dict)   # Output: {'b': 2}
