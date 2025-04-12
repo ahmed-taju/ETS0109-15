@@ -34,3 +34,21 @@ my_dict = {"a": 1, "b": 2}
 value = my_dict.pop("a")
 print(value)     # Output: 1
 print(my_dict)   # Output: {'b': 2}
+
+# dict.setdefault(key, default) => Returns the value of key. If not present, inserts key with a value of default.
+<!-- Example -->
+my_dict = {"a": 1}
+my_dict.setdefault("b", 2)
+print(my_dict)  # Output: {'a': 1, 'b': 2}
+
+# dict.update(other_dict) => Updates the dictionary with key-value pairs from another dictionary.
+<!-- Example -->
+my_dict = {"a": 1}
+my_dict.update({"b": 2, "c": 3})
+print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
+
+# dict.values() => Returns a view object of dictionary values.
+<!-- Example -->
+my_dict = {"a": 1, "b": 2}
+print(my_dict.values())  # Output: dict_values([1, 2])
+
