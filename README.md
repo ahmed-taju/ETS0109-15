@@ -52,3 +52,20 @@ print(my_dict)  # Output: {'a': 1, 'b': 2, 'c': 3}
 my_dict = {"a": 1, "b": 2}
 print(my_dict.values())  # Output: dict_values([1, 2])
 
+# dict.fromkeys(seq, value=None) => Creates a new dictionary from a sequence of keys with a specified value.
+<!-- Example -->
+keys = ['a', 'b', 'c']
+new_dict = dict.fromkeys(keys, 0)
+print(new_dict)  # Output: {'a': 0, 'b': 0, 'c': 0}
+
+# dict.__contains__(key) => Returns True if the dictionary contains the specified key. This is usually accessed using the in keyword.
+<!-- Example -->
+my_dict = {"a": 1}
+print("a" in my_dict)            # Output: True
+print(my_dict.__contains__("a"))  # Output: True
+
+# dict.__len__() => Returns the number of items in the dictionary.
+<!-- Example -->
+my_dict = {"a": 1, "b": 2}
+print(len(my_dict))           # Output: 2
+print(my_dict.__len__())      # Output: 2
